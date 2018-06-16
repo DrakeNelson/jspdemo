@@ -56,10 +56,3 @@ create html form to personalize site
 create jsp to read data and set cookies
 create home page to read cookies and display personalized data
 
-
-gitTest
-asdf
-asdf
-asdf
-a
-
