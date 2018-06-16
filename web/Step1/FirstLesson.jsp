@@ -239,9 +239,9 @@
     </tr>
     <tr>
         <td>
-            <p>1. create java class: com.luv2code.jsp/FunUtils.java<br/>
+            <p>1. create java class: com.luv2code.Step1/FunUtils.java<br/>
 
-            <span style="font-family: 'Courier New',monospace">package com.luv2code.jsp;<br/>
+            <span style="font-family: 'Courier New',monospace">package com.luv2code.Step1;<br/>
                 <br/>
                 public class FunUtils {<br/>
                 &nbsp;&nbsp; public static String makeItLower(String data) {<br/>
@@ -251,12 +251,12 @@
             </span>
             </p>
             <p>2. Call the java class<br/>
-                Lets have some fun: <%= com.luv2code.jsp.FunUtils.makeItLower("FUN FUN FUN")%><br/>
-                Lets have some fun: &lt;%= com.luv2code.jsp.FunUtils.makeItLower("FUN FUN FUN")%&gt;<br/>
+                Lets have some fun: <%= com.luv2code.Step1.FunUtils.makeItLower("FUN FUN FUN")%><br/>
+                Lets have some fun: &lt;%= com.luv2code.Step1.FunUtils.makeItLower("FUN FUN FUN")%&gt;<br/>
             </p>
             <p>
                 This can be done with an import as well with the code<br/>
-                &lt;%@ page import="com.luv2code.jsp.FunUtils" %&gt;
+                &lt;%@ page import="com.luv2code.Step1.FunUtils" %&gt;
             </p>
         </td>
     </tr>

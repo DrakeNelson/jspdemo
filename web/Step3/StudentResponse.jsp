@@ -15,7 +15,7 @@
 The student is confirmed: <br/>
 note there are two ways of calling this data
 <br/><br/>
-<!-- basic input passed into jsp file -->
+<!-- basic input passed into Step1 file -->
 &lt;%= request.getParameter("firstName")%&gt; &lt;%= request.getParameter("lastName")%&gt;<br/>
 <%= request.getParameter("firstName")%> <%= request.getParameter("lastName")%>
 <br/><br/>
