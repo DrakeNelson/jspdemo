@@ -1,0 +1,7 @@
+Cookies
+
+Personalize a web site for a user
+
+Keep track of user preferences
+    long term
+    even after browser is closed
